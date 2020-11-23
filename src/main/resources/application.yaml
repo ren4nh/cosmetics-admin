@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show_sql: false
+    properties:
+      hibernate:
+        format_sql: false
+  datasource:
+    username: postgres
+    password: 123@123
+    url: jdbc:postgresql://127.0.0.1:5432/cosmetics_db # Alterar os dados
+  security:
+    user:
+      password: 123
